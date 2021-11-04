@@ -1,0 +1,559 @@
+@font-face {
+  font-family: MyGirlIsRetro;
+  src: url("../font/MyGirlIsRetroDEMO.ttf");
+}
+@font-face {
+  font-family: ComicSansMS3;
+  src: url("../font/ComicSansMS3.ttf");
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  position: relative;
+  overflow: hidden;
+}
+.menu-bar {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  top: 20px;
+  left: 0;
+  position: absolute;
+  z-index: 20;
+}
+.div-sneaker-black {
+  height: 300px;
+  margin-top: 560px;
+  position: relative;
+  z-index: 9;
+}
+
+.sneaker {
+  width: 950px;
+  margin: 0 275px 10px 275px;
+  transform: rotate(10deg);
+  animation: shoe 2s infinite;
+}
+
+@keyframes shoe {
+  0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+}
+
+.paralax {
+  position: fixed;
+  top: 0;
+  min-height: 300px;
+}
+
+.block-over-sneakers-1 {
+  background-color: black;
+  width: 100%;
+  height: 386px;
+  z-index: 0;
+  position: absolute;
+  right: -2000px;
+  animation-name: slide-1;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  border-radius: 20px;
+}
+
+.block-over-sneakers-2 {
+  background-color: black;
+  width: 100%;
+  height: 386px;
+  z-index: 1;
+  position: absolute;
+  left: -2000px;
+  animation-name: slide-2;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 193px;
+  color: white;
+  text-align: center;
+  display: block;
+  top: 0px;
+  margin-top: 0px;
+  font-family: "MyGirlIsRetro";
+  font-weight: 200;
+  z-index: 1;
+  margin-bottom: -25px;
+}
+
+.mouse {
+  height: 78px;
+  width: 26px;
+  margin-left: 750px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@keyframes slide-1 {
+  from {
+    right: 0;
+  }
+  to {
+    right: -2000px;
+  }
+}
+@keyframes slide-2 {
+  from {
+    left: 0;
+  }
+  to {
+    left: -2000px;
+  }
+}
+
+.red-block {
+  display: block;
+  height: 450px;
+  width: 100%;
+  background-color: #A31C26;
+  position: relative;
+  z-index: 10;
+  margin-top: 0px;
+}
+
+.text-red {
+  display: block;
+  width: 575px;
+  height: 141px;
+  padding-top: 87px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 21px;
+  font-family: "ComicSansMS3";
+  line-height: 39px;
+}
+.lees-meer-bottom {
+  height: 50px;
+  width: 103px;
+  margin: 0 auto;
+  margin-left: 700px;
+  margin-top: 80px;
+  transition: transform 0.5s;
+}
+
+.lees-meer-bottom:hover {
+  transform: scale(1.15);
+}
+
+.white-block-top {
+  display: block;
+  height: 680px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  z-index: 10;
+  margin-top: 0px;
+}
+.titel-above-4-blocks {
+  display: block;
+  width: 800px;
+  padding-top: 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 44px;
+  font-family: "ComicSansMS3";
+  margin-left: 120px;
+  margin-bottom: 40px;
+  padding-top: 60px;
+}
+
+.puma-in-smoke {
+  display: inline-block;
+  height: 392px;
+  width: 268px;
+  background-image: url(../img/Puma.png);
+  background-repeat: no-repeat;
+  background-size: 268px 392px;
+  margin-left: 130px;
+  transition: 0.7s;
+}
+
+.puma-in-smoke:hover {
+  transition: 0.7s;
+  transform: rotate(-5deg);
+}
+
+.jordan-laying-down {
+  display: inline-block;
+  height: 392px;
+  width: 268px;
+  background-image: url(../img/jordan-sitting.png);
+  background-repeat: no-repeat;
+  background-size: 268px 392px;
+  margin-left: 50px;
+  transition: 0.7s;
+}
+.jordan-laying-down:hover {
+  transition: 0.7s;
+  transform: rotate(5deg);
+}
+
+.nike-in-water {
+  display: inline-block;
+  height: 392px;
+  width: 268px;
+  background-image: url(../img/Nike-air-water.png);
+  background-repeat: no-repeat;
+  background-size: 268px 392px;
+  margin-left: 50px;
+  transition: 0.7s;
+}
+.nike-in-water:hover {
+  transition: 0.7s;
+  transform: rotate(-5deg);
+}
+
+.offwhite-hold {
+  display: inline-block;
+  height: 392px;
+  width: 268px;
+  background-image: url(../img/Offwhite-black.png);
+  background-repeat: no-repeat;
+  background-size: 268px 392px;
+  margin-left: 50px;
+  transition: 0.7s;
+}
+
+.offwhite-hold:hover {
+  transition: 0.7s;
+  transform: rotate(5deg);
+}
+
+.text-under-puma {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 129px;
+  width: 250px;
+  margin-top: 15px;
+  float: left;
+  margin-bottom: 0px;
+}
+
+.puma-lees-meer {
+  font-size: 14px;
+  font-weight: lighter;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 129px;
+  float: left;
+  color: #000000;
+}
+
+.text-under-jordan {
+  font-size: 18px;
+  font-weight: bold;
+  width: 250px;
+  float: left;
+  margin-left: 74px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.jordan-lees-meer {
+  font-size: 14px;
+  font-weight: lighter;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 74px;
+  float: left;
+  color: #000000;
+}
+
+.text-under-nike {
+  font-size: 18px;
+  font-weight: bold;
+  width: 250px;
+  float: left;
+  margin-left: 74px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.nike-lees-meer {
+  font-size: 14px;
+  font-weight: lighter;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 74px;
+  float: left;
+  color: #000000;
+}
+
+.text-under-offwhite {
+  font-size: 18px;
+  font-weight: bold;
+  width: 250px;
+  float: left;
+  margin-left: 74px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.offwhite-lees-meer {
+  font-size: 14px;
+  font-weight: lighter;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 74px;
+  float: left;
+  color: #000000;
+}
+.black-block {
+  display: block;
+  height: 350px;
+  width: 100%;
+  background-color: #000000;
+  position: relative;
+  z-index: 10;
+  margin-top: 0px;
+}
+
+.person-for-wall {
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 19.3px;
+  margin-left: 45px;
+  position: absolute;
+}
+.titel-next-person {
+  color: white;
+  float: right;
+  position: relative;
+  margin-right: 180px;
+  font-size: 35px;
+  font-family: "ComicSansMS3";
+  margin-top: 40px;
+}
+.text-next-person {
+  color: white;
+  float: right;
+  position: absolute;
+  width: 425px;
+  margin-left: 830px;
+  margin-top: 120px;
+  font-family: "ComicSansMS3";
+  line-height: 21px;
+}
+
+.lees-meer-bottom-person {
+  height: 42px;
+  width: 93px;
+  margin: 0 auto;
+  margin-left: 980px;
+  position: absolute;
+  margin-top: 220px;
+  transition: transform 0.5s;
+}
+
+.lees-meer-bottom-person:hover {
+  transform: scale(1.15);
+}
+.white-block-mid {
+  display: block;
+  height: 240px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  margin-top: 0px;
+}
+
+.white-block-bottom {
+  display: block;
+  height: 516px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  z-index: 10;
+  margin-top: 0px;
+}
+
+.red-block-bottom {
+  display: block;
+  height: 493px;
+  width: 943px;
+  background-color: #a31c26;
+  position: absolute;
+  z-index: 10;
+  margin-top: 0px;
+  margin-left: 97px;
+  margin-bottom: 200px;
+}
+
+.jordan-poker {
+  position: absolute;
+  z-index: 15;
+  height: 562px;
+  width: 801px;
+  margin-left: 650px;
+  margin-top: 80px;
+  transition: transform 3s;
+}
+
+.jordan-poker:hover {
+  transform: scale(-1.1);
+  transition-delay: 0.8s;
+}
+
+.titel-jordan-poker {
+  position: absolute;
+  z-index: 10;
+  color: white;
+  font-size: 35px;
+  margin-left: 155px;
+  margin-top: 70px;
+  font-family: "ComicSansMS3";
+}
+
+.text-jordan-poker {
+  position: absolute;
+  z-index: 10;
+  color: white;
+  margin-left: 155px;
+  margin-top: 140px;
+  font-family: "ComicSansMS3";
+  width: 300px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.lees-meer-bottom-poker {
+  height: 42px;
+  width: 93px;
+  margin: 0 auto;
+  margin-left: 230px;
+  position: absolute;
+  margin-top: 300px;
+  z-index: 15;
+  transition: transform 0.5s;
+}
+
+.lees-meer-bottom-poker:hover {
+  transform: scale(1.15);
+}
+
+.white-block-low {
+  display: block;
+  height: 250px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  margin-top: 0px;
+}
+
+.footer {
+  background-color: black;
+  height: 368px;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  top: 0;
+}
+
+.instagram-logo {
+  height: 64px;
+  margin-top: 25px;
+  margin-left: 163px;
+  position: absolute;
+  transition: transform 0.5s;
+}
+
+.instagram-logo:hover {
+  transform: scale(1.15);
+}
+
+.instagram-text {
+  font-size: 25px;
+  color: white;
+  font-weight: lighter;
+  display: block;
+  margin-left: 240px;
+  margin-top: 45px;
+  position: absolute;
+}
+
+.facebook-logo {
+  height: 64px;
+  margin-top: 25px;
+  margin-left: 613px;
+  position: absolute;
+  transition: transform 0.5s;
+}
+
+.facebook-logo:hover {
+  transform: scale(1.15);
+}
+
+.facebook-text {
+  font-size: 25px;
+  color: white;
+  font-weight: lighter;
+  display: block;
+  margin-left: 700px;
+  margin-top: 45px;
+  position: absolute;
+}
+
+.linkedin-logo {
+  height: 64px;
+  margin-top: 25px;
+  margin-left: 1055px;
+  position: absolute;
+  transition: transform 0.5s;
+}
+
+.linkedin-logo:hover {
+  transform: scale(1.15);
+}
+
+.linkedin-text {
+  font-size: 25px;
+  color: white;
+  font-weight: lighter;
+  display: block;
+  margin-left: 1146px;
+  margin-top: 45px;
+  position: absolute;
+}
+
+.terms-privacy {
+  font-size: 14px;
+  color: white;
+  font-weight: lighter;
+  display: block;
+  margin-left: 60px;
+  margin-top: 352px;
+  position: absolute;
+  text-decoration: underline;
+}
+
+.sign-for-more {
+  height: 298px;
+  position: absolute;
+  display: block;
+  margin-top: 100px;
+  overflow: hidden;
+  margin-left: 600px;
+}
+
+.artikel-main {
+  color: #a31c26;
+}
+.artikel-main-body {
+  background-color: black;
+}
