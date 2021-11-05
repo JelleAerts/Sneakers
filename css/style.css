@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #0B0A0A;
+  background-color: #000000;
 }
 
 header {
@@ -54,7 +54,7 @@ header {
 }
 
 .block-over-sneakers-1 {
-  background-color: #0B0A0A;
+  background-color: #000000;
   width: 100%;
   height: 386px;
   z-index: 0;
@@ -67,7 +67,7 @@ header {
 }
 
 .block-over-sneakers-2 {
-  background-color: #0B0A0A;
+  background-color: #000000;
   width: 100%;
   height: 386px;
   z-index: 1;
@@ -117,7 +117,7 @@ h1 {
   }
 }
 
-.red-block-home {
+#red-block-home {
   display: block;
   height: 450px;
   width: 100%;
@@ -127,7 +127,7 @@ h1 {
   margin-top: 0px;
 }
 
-.text-red-home {
+#text-red-home {
   display: block;
   width: 575px;
   height: 141px;
@@ -140,7 +140,7 @@ h1 {
   font-family: "ComicSansMS3";
   line-height: 39px;
 }
-.lees-meer-bottom {
+#lees-meer-bottom {
   height: 50px;
   width: 103px;
   margin: 0 auto;
@@ -149,11 +149,11 @@ h1 {
   transition: transform 0.5s;
 }
 
-.lees-meer-bottom:hover {
+#lees-meer-bottom:hover {
   transform: scale(1.15);
 }
 
-.white-block-top {
+#white-block-top {
   display: block;
   height: 680px;
   width: 100%;
@@ -162,11 +162,11 @@ h1 {
   z-index: 10;
   margin-top: 0px;
 }
-.titel-above-4-blocks {
+#titel-above-4-blocks {
   display: block;
   width: 800px;
   padding-top: 20px;
-  color: #0B0A0A;
+  color: #000000;
   font-weight: bold;
   font-size: 44px;
   font-family: "ComicSansMS3";
@@ -175,7 +175,7 @@ h1 {
   padding-top: 60px;
 }
 
-.puma-in-smoke {
+#puma-in-smoke {
   display: inline-block;
   height: 392px;
   width: 268px;
@@ -186,12 +186,12 @@ h1 {
   transition: 0.7s;
 }
 
-.puma-in-smoke:hover {
+#puma-in-smoke:hover {
   transition: 0.7s;
   transform: rotate(-5deg);
 }
 
-.jordan-laying-down {
+#jordan-laying-down {
   display: inline-block;
   height: 392px;
   width: 268px;
@@ -201,12 +201,12 @@ h1 {
   margin-left: 50px;
   transition: 0.7s;
 }
-.jordan-laying-down:hover {
+#jordan-laying-down:hover {
   transition: 0.7s;
   transform: rotate(5deg);
 }
 
-.nike-in-water {
+#nike-in-water {
   display: inline-block;
   height: 392px;
   width: 268px;
@@ -216,12 +216,12 @@ h1 {
   margin-left: 50px;
   transition: 0.7s;
 }
-.nike-in-water:hover {
+#nike-in-water:hover {
   transition: 0.7s;
   transform: rotate(-5deg);
 }
 
-.offwhite-hold {
+#offwhite-hold {
   display: inline-block;
   height: 392px;
   width: 268px;
@@ -232,12 +232,12 @@ h1 {
   transition: 0.7s;
 }
 
-.offwhite-hold:hover {
+#offwhite-hold:hover {
   transition: 0.7s;
   transform: rotate(5deg);
 }
 
-.text-under-puma {
+#text-under-puma {
   font-size: 18px;
   font-weight: bold;
   margin-left: 129px;
@@ -247,7 +247,7 @@ h1 {
   margin-bottom: 0px;
 }
 
-.puma-lees-meer {
+#puma-lees-meer {
   font-size: 14px;
   font-weight: lighter;
   width: 250px;
@@ -257,7 +257,7 @@ h1 {
   color: #000000;
 }
 
-.text-under-jordan {
+#text-under-jordan {
   font-size: 18px;
   font-weight: bold;
   width: 250px;
@@ -267,7 +267,7 @@ h1 {
   margin-bottom: 0px;
 }
 
-.jordan-lees-meer {
+#jordan-lees-meer {
   font-size: 14px;
   font-weight: lighter;
   width: 250px;
@@ -277,7 +277,7 @@ h1 {
   color: #000000;
 }
 
-.text-under-nike {
+#text-under-nike {
   font-size: 18px;
   font-weight: bold;
   width: 250px;
@@ -286,7 +286,7 @@ h1 {
   margin-top: 15px;
   margin-bottom: 0px;
 }
-.nike-lees-meer {
+#nike-lees-meer {
   font-size: 14px;
   font-weight: lighter;
   width: 250px;
@@ -296,7 +296,7 @@ h1 {
   color: #000000;
 }
 
-.text-under-offwhite {
+#text-under-offwhite {
   font-size: 18px;
   font-weight: bold;
   width: 250px;
@@ -306,7 +306,7 @@ h1 {
   margin-bottom: 0px;
 }
 
-.offwhite-lees-meer {
+#offwhite-lees-meer {
   font-size: 14px;
   font-weight: lighter;
   width: 250px;
@@ -315,7 +315,7 @@ h1 {
   float: left;
   color: #000000;
 }
-.black-block-home {
+#black-block-home {
   display: block;
   height: 350px;
   width: 100%;
@@ -325,14 +325,14 @@ h1 {
   margin-top: 0px;
 }
 
-.person-for-wall {
+#person-for-wall {
   width: 700px;
   margin: 0 auto;
   margin-top: 19.3px;
   margin-left: 45px;
   position: absolute;
 }
-.titel-next-person {
+#titel-next-person {
   color: #F8F7F7;
   float: right;
   position: relative;
@@ -341,7 +341,7 @@ h1 {
   font-family: "ComicSansMS3";
   margin-top: 40px;
 }
-.text-next-person {
+#text-next-person {
   color: white;
   float: right;
   position: absolute;
@@ -352,7 +352,7 @@ h1 {
   line-height: 21px;
 }
 
-.lees-meer-bottom-person {
+#lees-meer-bottom-person {
   height: 42px;
   width: 93px;
   margin: 0 auto;
@@ -362,10 +362,10 @@ h1 {
   transition: transform 0.5s;
 }
 
-.lees-meer-bottom-person:hover {
+#lees-meer-bottom-person:hover {
   transform: scale(1.15);
 }
-.white-block-mid {
+#white-block-mid {
   display: block;
   height: 240px;
   width: 100%;
@@ -374,7 +374,7 @@ h1 {
   margin-top: 0px;
 }
 
-.white-block-bottom {
+#white-block-bottom {
   display: block;
   height: 516px;
   width: 100%;
@@ -384,7 +384,7 @@ h1 {
   margin-top: 0px;
 }
 
-.red-block-bottom {
+#red-block-bottom {
   display: block;
   height: 493px;
   width: 943px;
@@ -396,7 +396,7 @@ h1 {
   margin-bottom: 200px;
 }
 
-.jordan-poker {
+#jordan-poker {
   position: absolute;
   z-index: 15;
   height: 562px;
@@ -406,12 +406,12 @@ h1 {
   transition: transform 3s;
 }
 
-.jordan-poker:hover {
+#jordan-poker:hover {
   transform: scale(-1.1);
   transition-delay: 0.8s;
 }
 
-.titel-jordan-poker {
+#titel-jordan-poker {
   position: absolute;
   z-index: 10;
   color: #F8F7F7;
@@ -421,7 +421,7 @@ h1 {
   font-family: "ComicSansMS3";
 }
 
-.text-jordan-poker {
+#text-jordan-poker {
   position: absolute;
   z-index: 10;
   color: #F8F7F7;
@@ -432,7 +432,7 @@ h1 {
   font-size: 18px;
   line-height: 28px;
 }
-.lees-meer-bottom-poker {
+#lees-meer-bottom-poker {
   height: 42px;
   width: 93px;
   margin: 0 auto;
@@ -443,11 +443,11 @@ h1 {
   transition: transform 0.5s;
 }
 
-.lees-meer-bottom-poker:hover {
+#lees-meer-bottom-poker:hover {
   transform: scale(1.15);
 }
 
-.white-block-low {
+#white-block-low {
   display: block;
   height: 250px;
   width: 100%;
@@ -555,12 +555,12 @@ h1 {
   color: #a31c26;
 }
 .artikel-main-body {
-  background-color: #0B0A0A;
+  background-color: #000000;
 }
 
 
 body {
-  background-color: black;
+  background-color: #000000;
 }
 
 
@@ -604,7 +604,7 @@ body {
   position: relative;
 }
 
-.white-block {
+#white-block {
   height: 450px;
   width: 100%;
   background-color: #F8F7F7;
@@ -613,7 +613,7 @@ body {
   top: 0;
 }
 
-.text-red-alinea-1 {
+#text-red-alinea-1 {
   display: block;
   font-size: 23px;
   width: 974px;
@@ -623,7 +623,7 @@ body {
   padding-left: 260px;
 }
 
-.text-red-alinea-2 {
+#text-red-alinea-2 {
   display: block;
   font-size: 23px;
   width: 974px;
@@ -634,7 +634,7 @@ body {
   padding-bottom: 77px;
 }
 
-.black-block {
+#black-block {
   background-color: #0B0A0A;
   width: 100%;
   height: 700px;
@@ -642,20 +642,20 @@ body {
   z-index: 10;
 }
 
-.jesse-badtub {
+#jesse-badtub {
   height: 590px;
   margin-top: 55px;
   margin-left: 441px;
   filter: none;
 }
 
-.jesse-badtub:hover {
+#jesse-badtub:hover {
   filter: grayscale(100%);
   transition: 2s;
   transition-timing-function: ease-in-out;
 }
 
-.white-block-with-text {
+#white-block-with-text {
   width: 100%;
   height: 3628px;
   background-color: #F8F7F7;
@@ -663,7 +663,7 @@ body {
   z-index: 15;
 }
 
-.titel-statement {
+#titel-statement {
   height: 47px;
   width: 296px;
   font-size: 38px;
@@ -674,7 +674,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.text-statement-left {
+#text-statement-left {
   position: absolute;
   width: 450px;
   height: 228px;
@@ -684,7 +684,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.text-statement-right {
+#text-statement-right {
   position: absolute;
   width: 450px;
   height: 228px;
@@ -694,16 +694,16 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.stripe-1 {
+#stripe-1 {
   width: 3px;
   height: 52px;
-  background-color: black;
+  background-color: #000000;
   position: absolute;
   margin-left: 746px;
   margin-top: 400px;
 }
 
-.titel-kantoor {
+#titel-kantoor {
   height: 47px;
   width: 518px;
   font-size: 38px;
@@ -714,7 +714,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.text-kantoor-left {
+#text-kantoor-left {
   position: absolute;
   width: 450px;
   height: 228px;
@@ -724,7 +724,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.text-kantoor-right {
+#text-kantoor-right {
   position: absolute;
   width: 450px;
   height: 228px;
@@ -733,16 +733,16 @@ body {
   margin-top: 611px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.stripe-2 {
+#stripe-2 {
   width: 3px;
   height: 52px;
-  background-color: black;
+  background-color: #000000;
   position: absolute;
   margin-left: 746px;
   margin-top: 848px;
 }
 
-.quote-1 {
+#quote-1 {
   height: 47px;
   width: 787px;
   font-size: 38px;
@@ -753,16 +753,16 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.stripe-3 {
+#stripe-3 {
   width: 3px;
   height: 52px;
-  background-color: black;
+  background-color: #000000;
   position: absolute;
   margin-left: 746px;
   margin-top: 1025px;
 }
 
-.red-block-jesse {
+#red-block-jesse {
   width: 974px;
   height: 412px;
   background-color: #A31C26;
@@ -771,7 +771,7 @@ body {
   margin-left: 259px;
 }
 
-.quote-2 {
+#quote-2 {
   height: 47px;
   width: 400px;
   font-size: 40px;
@@ -782,7 +782,7 @@ body {
   position: absolute;
 }
 
-.jesse-photo {
+#jesse-photo {
   display: inline-block;
   height: 650px;
   margin-left: 585px;
@@ -793,13 +793,13 @@ body {
   top: 0;
 }
 
-.jesse-photo:hover {
+#jesse-photo:hover {
   filter: grayscale(100%);
   transition: 2s;
   transition-timing-function: ease-in-out;
 }
 
-.titel-influencer {
+#titel-influencer {
   height: 47px;
   width: 787px;
   font-size: 38px;
@@ -810,7 +810,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.text-influencer-1 {
+#text-influencer-1 {
   display: block;
   font-size: 23px;
   width: 974px;
@@ -821,7 +821,7 @@ body {
   position: absolute;
 }
 
-.text-influencer-2 {
+#text-influencer-2 {
   display: block;
   font-size: 23px;
   width: 974px;
@@ -832,7 +832,7 @@ body {
   position: absolute;
 }
 
-.titel-trendvolger {
+#titel-trendvolger {
   height: 47px;
   width: 787px;
   font-size: 38px;
@@ -843,7 +843,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.text-trendvolger-1 {
+#text-trendvolger-1 {
   display: block;
   font-size: 23px;
   width: 974px;
@@ -854,7 +854,7 @@ body {
   position: absolute;
 }
 
-.text-trendvolger-2 {
+#text-trendvolger-2 {
   display: block;
   font-size: 23px;
   width: 974px;
@@ -865,7 +865,7 @@ body {
   position: absolute;
 }
 
-.text-trendvolger-3 {
+#text-trendvolger-3 {
   display: block;
   font-size: 23px;
   width: 974px;
@@ -876,7 +876,7 @@ body {
   position: absolute;
 }
 
-.text-trendvolger-4 {
+#text-trendvolger-4 {
   display: block;
   font-size: 23px;
   width: 974px;
@@ -887,7 +887,7 @@ body {
   position: absolute;
 }
 
-.text-trendvolger-5 {
+#text-trendvolger-5 {
   display: block;
   font-size: 23px;
   width: 974px;
@@ -898,9 +898,7 @@ body {
   position: absolute;
 }
 
-
-
-.titel-consumeren {
+#titel-consumeren {
   height: 47px;
   width: 389px;
   font-size: 38px;
@@ -911,7 +909,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.text-consumeren-left {
+#text-consumeren-left {
   position: absolute;
   width: 450px;
   height: 228px;
@@ -921,7 +919,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.text-consumeren-right {
+#text-consumeren-right {
   position: absolute;
   width: 450px;
   height: 228px;
@@ -931,7 +929,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.advertenties {
+#advertenties {
   color: black;
   width: 140px;
   position: absolute;
@@ -941,57 +939,57 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.jesse-store {
+#jesse-store {
   width: 373px;
   padding-top: 97px;
   padding-left: 87px;
   transition: 0.7s;
 }
 
-.jesse-store:hover {
+#jesse-store:hover {
   transition: 0.7s;
   transform: rotate(3.5deg);
 }
 
-.lofi-gym {
+#lofi-gym {
   width: 373px;
   padding-top: 97px;
   padding-left: 93px;
   transition: 0.7s;
 }
 
-.lofi-gym:hover {
+#lofi-gym:hover {
   transition: 0.7s;
   transform: rotate(3.5deg);
 }
 
-.lofi-original {
+#lofi-original {
   width: 373px;
   padding-top: 97px;
   padding-left: 93px;
   transition: 0.7s;
 }
 
-.lofi-original:hover {
+#lofi-original:hover {
   transition: 0.7s;
   transform: rotate(-3.5deg);
 }
 
-.jesse {
-  color: black;
+#jesse {
+  color: #000000;
   margin-left: 200px;
 }
-.gym {
-  color: black;
+#gym {
+  color: #000000;
   margin-left: 350px;
 }
 
-.lofi {
-  color: black;
+#lofi {
+  color: #000000;
   margin-left: 300px;
 }
 
-.red-block-advertice {
+#red-block-advertice {
   height: 556px;
   width: 100%;
   background-color: #a31c26;
@@ -999,7 +997,7 @@ body {
   z-index: 10;
 }
 
-.white-bottom {
+#white-bottom {
   width: 100%;
   height: 77px;
   background-color: #F8F7F7;
