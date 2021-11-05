@@ -93,9 +93,11 @@ h1 {
 }
 
 .mouse-home {
+  display: block;
   height: 78px;
   width: 26px;
-  margin-left: 750px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -141,10 +143,12 @@ h1 {
   line-height: 39px;
 }
 #lees-meer-bottom {
+  display: block;
   height: 50px;
   width: 103px;
   margin: 0 auto;
-  margin-left: 700px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 80px;
   transition: transform 0.5s;
 }
@@ -183,6 +187,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: 268px 392px;
   margin-left: 130px;
+  margin-right: auto;
   transition: 0.7s;
 }
 
@@ -193,6 +198,7 @@ h1 {
 
 #jordan-laying-down {
   display: inline-block;
+  margin-right: auto;
   height: 392px;
   width: 268px;
   background-image: url(../img/jordan-sitting.png);
@@ -208,6 +214,7 @@ h1 {
 
 #nike-in-water {
   display: inline-block;
+  margin-right: auto;
   height: 392px;
   width: 268px;
   background-image: url(../img/Nike-air-water.png);
@@ -223,6 +230,7 @@ h1 {
 
 #offwhite-hold {
   display: inline-block;
+  
   height: 392px;
   width: 268px;
   background-image: url(../img/Offwhite-black.png);
@@ -548,7 +556,7 @@ h1 {
   display: block;
   margin-top: 100px;
   overflow: hidden;
-  margin-left: 600px;
+  margin-left: 598px;
 }
 
 .artikel-main {
