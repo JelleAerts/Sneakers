@@ -81,7 +81,7 @@ header {
 
 h1 {
   font-size: 193px;
-  color: #F8F7F7;
+  color: #f8f7f7;
   text-align: center;
   display: block;
   top: 0px;
@@ -98,7 +98,7 @@ h1 {
   width: 26px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 
@@ -135,7 +135,7 @@ h1 {
   height: 141px;
   padding-top: 87px;
   margin: 0 auto;
-  color: #F8F7F7;
+  color: #f8f7f7;
   text-align: center;
   font-weight: lighter;
   font-size: 21px;
@@ -161,7 +161,7 @@ h1 {
   display: block;
   height: 680px;
   width: 100%;
-  background-color: #F8F7F7;
+  background-color: #f8f7f7;
   position: relative;
   z-index: 10;
   margin-top: 0px;
@@ -180,7 +180,7 @@ h1 {
 }
 
 #puma-in-smoke {
-  display: inline-block;
+  display: block;
   height: 392px;
   width: 268px;
   background-image: url(../img/Puma.png);
@@ -189,6 +189,7 @@ h1 {
   margin-left: 130px;
   margin-right: auto;
   transition: 0.7s;
+  float: left;
 }
 
 #puma-in-smoke:hover {
@@ -197,7 +198,7 @@ h1 {
 }
 
 #jordan-laying-down {
-  display: inline-block;
+  display: block;
   margin-right: auto;
   height: 392px;
   width: 268px;
@@ -206,6 +207,7 @@ h1 {
   background-size: 268px 392px;
   margin-left: 50px;
   transition: 0.7s;
+  float: left;
 }
 #jordan-laying-down:hover {
   transition: 0.7s;
@@ -213,7 +215,7 @@ h1 {
 }
 
 #nike-in-water {
-  display: inline-block;
+  display: block;
   margin-right: auto;
   height: 392px;
   width: 268px;
@@ -222,6 +224,7 @@ h1 {
   background-size: 268px 392px;
   margin-left: 50px;
   transition: 0.7s;
+  float: left;
 }
 #nike-in-water:hover {
   transition: 0.7s;
@@ -229,8 +232,7 @@ h1 {
 }
 
 #offwhite-hold {
-  display: inline-block;
-  
+  display: block;
   height: 392px;
   width: 268px;
   background-image: url(../img/Offwhite-black.png);
@@ -238,6 +240,7 @@ h1 {
   background-size: 268px 392px;
   margin-left: 50px;
   transition: 0.7s;
+  float: left;
 }
 
 #offwhite-hold:hover {
@@ -252,7 +255,7 @@ h1 {
   width: 250px;
   margin-top: 15px;
   float: left;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 #puma-lees-meer {
@@ -272,7 +275,7 @@ h1 {
   float: left;
   margin-left: 74px;
   margin-top: 15px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 #jordan-lees-meer {
@@ -292,7 +295,7 @@ h1 {
   float: left;
   margin-left: 74px;
   margin-top: 15px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 #nike-lees-meer {
   font-size: 14px;
@@ -311,7 +314,7 @@ h1 {
   float: left;
   margin-left: 74px;
   margin-top: 15px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 #offwhite-lees-meer {
@@ -330,7 +333,7 @@ h1 {
   background-color: #000000;
   position: relative;
   z-index: 10;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 #person-for-wall {
@@ -341,7 +344,7 @@ h1 {
   position: absolute;
 }
 #titel-next-person {
-  color: #F8F7F7;
+  color: #f8f7f7;
   float: right;
   position: relative;
   margin-right: 180px;
@@ -377,19 +380,19 @@ h1 {
   display: block;
   height: 240px;
   width: 100%;
-  background-color: #F8F7F7;
+  background-color: #f8f7f7;
   position: relative;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 #white-block-bottom {
   display: block;
   height: 516px;
   width: 100%;
-  background-color: #F8F7F7;
+  background-color: #f8f7f7;
   position: relative;
   z-index: 10;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 #red-block-bottom {
@@ -399,7 +402,7 @@ h1 {
   background-color: #a31c26;
   position: absolute;
   z-index: 10;
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: 97px;
   margin-bottom: 200px;
 }
@@ -422,7 +425,7 @@ h1 {
 #titel-jordan-poker {
   position: absolute;
   z-index: 10;
-  color: #F8F7F7;
+  color: #f8f7f7;
   font-size: 35px;
   margin-left: 155px;
   margin-top: 70px;
@@ -432,7 +435,7 @@ h1 {
 #text-jordan-poker {
   position: absolute;
   z-index: 10;
-  color: #F8F7F7;
+  color: #f8f7f7;
   margin-left: 155px;
   margin-top: 140px;
   font-family: "ComicSansMS3";
@@ -459,9 +462,9 @@ h1 {
   display: block;
   height: 250px;
   width: 100%;
-  background-color: #F8F7F7;
+  background-color: #f8f7f7;
   position: relative;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .footer {
@@ -487,7 +490,7 @@ h1 {
 
 .instagram-text {
   font-size: 25px;
-  color: #F8F7F7;
+  color: #f8f7f7;
   font-weight: lighter;
   display: block;
   margin-left: 240px;
@@ -509,7 +512,7 @@ h1 {
 
 .facebook-text {
   font-size: 25px;
-  color: #F8F7F7;
+  color: #f8f7f7;
   font-weight: lighter;
   display: block;
   margin-left: 700px;
@@ -531,7 +534,7 @@ h1 {
 
 .linkedin-text {
   font-size: 25px;
-  color: #F8F7F7;
+  color: #f8f7f7;
   font-weight: lighter;
   display: block;
   margin-left: 1146px;
@@ -541,7 +544,7 @@ h1 {
 
 .terms-privacy {
   font-size: 14px;
-  color: #F8F7F7;
+  color: #f8f7f7;
   font-weight: lighter;
   display: block;
   margin-left: 60px;
@@ -566,11 +569,9 @@ h1 {
   background-color: #000000;
 }
 
-
 body {
   background-color: #000000;
 }
-
 
 .block-trans-overlay {
   width: 100%;
@@ -594,7 +595,7 @@ body {
   width: 1300px;
   height: 417px;
   z-index: 20;
-  color: #F8F7F7;
+  color: #f8f7f7;
   text-align: center;
   line-height: 139px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -615,7 +616,7 @@ body {
 #white-block {
   height: 450px;
   width: 100%;
-  background-color: #F8F7F7;
+  background-color: #f8f7f7;
   z-index: 10;
   position: relative;
   top: 0;
@@ -643,7 +644,7 @@ body {
 }
 
 #black-block {
-  background-color: #0B0A0A;
+  background-color: #0b0a0a;
   width: 100%;
   height: 700px;
   position: relative;
@@ -651,23 +652,42 @@ body {
 }
 
 #jesse-badtub {
+  display: block;
+  float: right;
   height: 590px;
   margin-top: 55px;
-  margin-left: 441px;
+  margin-right: 185px;
+  transition: 1s;
   filter: none;
 }
 
 #jesse-badtub:hover {
   filter: grayscale(100%);
   transition: 2s;
-  transition-timing-function: ease-in-out;
+  transform: rotate(-3.5deg);
+}
+
+#jesse-front {
+  display: block;
+  float: left;
+  height: 590px;
+  margin-top: 55px;
+  margin-left: 185px;
+  transition: 1s;
+  filter: none;
+}
+
+#jesse-front:hover {
+  filter: grayscale(100%);
+  transition: 2s;
+  transform: rotate(3.5deg);
 }
 
 #white-block-with-text {
   width: 100%;
   height: 3628px;
-  background-color: #F8F7F7;
-  position:relative;
+  background-color: #f8f7f7;
+  position: relative;
   z-index: 15;
 }
 
@@ -683,23 +703,25 @@ body {
 }
 
 #text-statement-left {
-  position: absolute;
+  display: block;
   width: 450px;
   height: 228px;
   font-size: 23px;
   margin-left: 262px;
   margin-top: 164px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  float: left;
 }
 
 #text-statement-right {
-  position: absolute;
+  display: block;
   width: 450px;
   height: 228px;
   font-size: 23px;
-  margin-left: 821px;
   margin-top: 164px;
+  margin-right: 262px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  float: right;
 }
 
 #stripe-1 {
@@ -723,23 +745,25 @@ body {
 }
 
 #text-kantoor-left {
-  position: absolute;
+  display: block;
   width: 450px;
   height: 228px;
   font-size: 23px;
   margin-left: 262px;
-  margin-top: 611px;
+  margin-top: 220px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  float: left;
 }
 
 #text-kantoor-right {
-  position: absolute;
+  display: block;
   width: 450px;
   height: 228px;
   font-size: 23px;
-  margin-left: 821px;
-  margin-top: 611px;
+  margin-right: 262px;
+  margin-top: 220px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  float: right;
 }
 #stripe-2 {
   width: 3px;
@@ -773,37 +797,39 @@ body {
 #red-block-jesse {
   width: 974px;
   height: 412px;
-  background-color: #A31C26;
+  background-color: #a31c26;
   position: absolute;
   margin-top: 1150px;
   margin-left: 259px;
 }
 
 #quote-2 {
+  display: block;
   height: 47px;
   width: 400px;
   font-size: 40px;
   margin-left: 100px;
   margin-top: 120px;
-  color: #F8F7F7;
+  color: #f8f7f7;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  position: absolute;
+  float: left;
 }
 
 #jesse-photo {
-  display: inline-block;
+  display: block;
   height: 650px;
   margin-left: 585px;
   position: absolute;
   margin-top: -238px;
   filter: none;
-  position: relative;
   top: 0;
+  float: right;
+  transition: 1s;
 }
 
 #jesse-photo:hover {
   filter: grayscale(100%);
-  transition: 2s;
+  transition: 1s;
   transition-timing-function: ease-in-out;
 }
 
@@ -918,23 +944,25 @@ body {
 }
 
 #text-consumeren-left {
-  position: absolute;
+  display: block;
   width: 450px;
   height: 228px;
   font-size: 23px;
   margin-left: 262px;
-  margin-top: 3350px;
+  margin-top: 2520px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  float: left;
 }
 
 #text-consumeren-right {
-  position: absolute;
+  display: block;
   width: 450px;
   height: 228px;
   font-size: 23px;
-  margin-left: 821px;
-  margin-top: 3350px;
+  margin-right: 262px;
+  margin-top: 2520px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  float: right;
 }
 
 #advertenties {
@@ -948,10 +976,12 @@ body {
 }
 
 #jesse-store {
+  display: block;
   width: 373px;
   padding-top: 97px;
   padding-left: 87px;
   transition: 0.7s;
+  float: left;
 }
 
 #jesse-store:hover {
@@ -960,9 +990,11 @@ body {
 }
 
 #lofi-gym {
+  display: block;
+  float: left;
   width: 373px;
   padding-top: 97px;
-  padding-left: 93px;
+  margin-left: 100px;
   transition: 0.7s;
 }
 
@@ -972,10 +1004,12 @@ body {
 }
 
 #lofi-original {
+  display: block;
   width: 373px;
   padding-top: 97px;
-  padding-left: 93px;
+  padding-right: 87px;
   transition: 0.7s;
+  float: right;
 }
 
 #lofi-original:hover {
@@ -984,17 +1018,18 @@ body {
 }
 
 #jesse {
+  position: absolute;
   color: #000000;
   margin-left: 200px;
 }
 #gym {
   color: #000000;
-  margin-left: 350px;
+  margin-left: 675px;
 }
 
 #lofi {
   color: #000000;
-  margin-left: 300px;
+  margin-left: 375px;
 }
 
 #red-block-advertice {
@@ -1003,12 +1038,13 @@ body {
   background-color: #a31c26;
   position: relative;
   z-index: 10;
+  clear: both;
 }
 
 #white-bottom {
   width: 100%;
   height: 77px;
-  background-color: #F8F7F7;
+  background-color: #f8f7f7;
   position: relative;
   z-index: 10;
 }
@@ -1036,7 +1072,7 @@ body {
 
 .instagram-text {
   font-size: 25px;
-  color: #F8F7F7;
+  color: #f8f7f7;
   font-weight: lighter;
   display: block;
   margin-left: 240px;
@@ -1058,7 +1094,7 @@ body {
 
 .facebook-text {
   font-size: 25px;
-  color: #F8F7F7;
+  color: #f8f7f7;
   font-weight: lighter;
   display: block;
   margin-left: 700px;
@@ -1080,7 +1116,7 @@ body {
 
 .linkedin-text {
   font-size: 25px;
-  color: #F8F7F7;
+  color: #f8f7f7;
   font-weight: lighter;
   display: block;
   margin-left: 1146px;
@@ -1090,7 +1126,7 @@ body {
 
 .terms-privacy {
   font-size: 14px;
-  color: #F8F7F7;
+  color: #f8f7f7;
   font-weight: lighter;
   display: block;
   margin-left: 60px;
